@@ -172,17 +172,21 @@ a {
 
 
 /* @media section */
-@media (min-width: 375px) and (max-width: 675px) {
+@media (min-width: 375px) and (max-width: 675px)  {
 	.login {
-		display: flex;
+        display: flex;
 		flex-direction: column;
 	}
-	.right,
 	.left {
-		width: 100% !important;
+		max-width: 300px;
+		height: auto;
+		margin: auto;
 	}
 	.right img {
 		width: 100%;
-		
+		height: 200px;
+	}
+	.right {
+		margin: auto;
 	}
 }
