@@ -176,10 +176,22 @@ a{
     background-color:#ce3100;
 }
 
-@media(max-width:991px){
-    .left{
-        width: 320px;
-        padding: 0;
-        margin: auto;
+@media screen and (max-width:500px){
+    .login{
+        flex-direction: column;
+    }
+    .left{   
+        max-width: 300px;
+        height: auto;
+        margin:auto;
+
+    }
+    .right img{
+        width: 100%;
+        height:200px;
+        
+    }
+    .right{
+        margin:auto;
     }
 }
