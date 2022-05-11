@@ -188,7 +188,7 @@ a {
 }
 
 /* @media section */
-@media (min-width: 375px) and (max-width: 675px) {
+@media (min-width: 280px) and (max-width: 675px) {
 	.login {
 		display: flex;
 		flex-direction: column;
