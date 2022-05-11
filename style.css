@@ -182,9 +182,13 @@ a {
 		width: 100% !important;
 		white-space: nowrap;
 	}
+	.left{
+        padding: 40px;
+    
+    }
 	.right img {
 		width: 100%;
-		display:none
+		display:none;
 		
 	}
 }
