@@ -180,9 +180,11 @@ a {
 	.right,
 	.left {
 		width: 100% !important;
+		white-space: nowrap;
 	}
 	.right img {
 		width: 100%;
+		display:none
 		
 	}
 }
