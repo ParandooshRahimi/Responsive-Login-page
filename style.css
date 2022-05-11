@@ -169,12 +169,8 @@ a {
 	background-color: #ce3100;
 }
 
-
-
-/* @media section */
-@media (min-width: 375px) and (max-width: 675px)  {
+@media screen and (max-width: 500px) {
 	.login {
-        display: flex;
 		flex-direction: column;
 	}
 	.left {
@@ -188,5 +184,21 @@ a {
 	}
 	.right {
 		margin: auto;
+	}
+}
+
+/* @media section */
+@media (min-width: 375px) and (max-width: 675px) {
+	.login {
+		display: flex;
+		flex-direction: column;
+	}
+	.right,
+	.left {
+		width: 100% !important;
+	}
+	.right img {
+		width: 100%;
+		
 	}
 }
