@@ -89,6 +89,7 @@ button {
 	background-color: rgba(50, 140, 167, 0.533);
 	color: #fff;
 	font-size: 14px;
+	font-weight: normal;
 }
 
 .group input {
