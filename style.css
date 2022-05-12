@@ -118,12 +118,12 @@ button {
 	width: 22%;
 	white-space: nowrap;
 	text-decoration: none;
-	color: #211f1c;
+	color:#1f2226;
 	
 	
 }
 .l label{
-	color: #211f1c;
+	color:#1f2226;
 }
 button:focus,
 input:focus {
