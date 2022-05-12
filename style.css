@@ -89,8 +89,6 @@ button {
 	background-color: rgba(50, 140, 167, 0.533);
 	color: #fff;
 	font-size: 14px;
-	font-weight:bold;
-	
 }
 
 .group input {
@@ -120,7 +118,7 @@ button {
 	width: 22%;
 	white-space: nowrap;
 	text-decoration: none;
-	color: #1f2226; 
+	color:#1f2226;
 	
 	
 }
@@ -142,7 +140,7 @@ button {
 	width: 100%;
 	align-self: center;
 	cursor: pointer;
-	
+	font-weight:bold;
 }
 
 button i {
@@ -201,7 +199,7 @@ a {
 	.right,
 	.left {
 		width: 100% !important;
-        white-space: nowrap;
+        	white-space: nowrap;
         
 	}
     .left{
