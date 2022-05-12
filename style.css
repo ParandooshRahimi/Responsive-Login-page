@@ -110,15 +110,21 @@ button {
 .l input {
 	width: 35px;
 	height: 18px;
+	
 }
 
 
 .re a {
-	width: 20%;
+	width: 22%;
+	white-space: nowrap;
+	text-decoration: none;
+	color: #211f1c;
 	
 	
 }
-
+.l label{
+	color: #211f1c;
+}
 button:focus,
 input:focus {
 	outline: 0;
@@ -133,6 +139,7 @@ button {
 	height: 45px;
 	width: 100%;
 	align-self: center;
+	cursor: pointer;
 }
 
 button i {
@@ -213,6 +220,6 @@ a {
         margin-top:0px;
     }
     .re a {
-        width: 30%;
+        width: 35%;
     }
 }
